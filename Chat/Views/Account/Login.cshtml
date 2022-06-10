@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/style/css/main.css" />
+    <title>Daxil olun</title>
+</head>
+
+<body>
+    <section class="area-login">
+        <h1>Daxil olun</h1>
+        <div class="login">
+            <form method="post">
+                <input type="text" placeholder="İstifadəçi adınız və ya email ünvanınız" autofocus />
+                <input type="password" placeholder="Parolunuz" />
+                <input type="submit" value="Giriş" />
+            </form>
+            <p>Hesab lazımdır? <a asp-action="Register">Qeydiyyatdan keç</a></p>
+        </div>
+    </section>
+</body>
+
+</html>
